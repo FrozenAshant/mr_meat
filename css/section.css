@@ -1,14 +1,12 @@
 /* section and others  */
 section{
+    overflow-x: hidden;
     width:100%;
     padding: 20px 0;
-    /* background-color: #a5d8ff; */
     min-height: 70vh;
 
-    /* display: flex; */
     justify-content: center;
-    /* align-items: center; */
-
+    /* overflow-x: hidden; */
 }
 .section-services{
     background-color: pink;
@@ -17,12 +15,11 @@ section{
 .container{
     width: 87%;
     margin: 10px auto;
-    /* border: 1px solid green; */
+    /* overflow-x: hidden; */
 
 }
 .card{
     width: 100%;
-    /* border: 1px solid black; */
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -37,7 +34,6 @@ section{
 .cards-image img{
     height: 250px;
     width: 100%;
-    /* border: 1px solid red; */
     padding: 5px;
     border-radius: 10px 10px 0 0;
 }
@@ -63,7 +59,6 @@ section .container h2{
     .cards-image img{
         height: 250px;
         width: 100%;
-        /* border: 1px solid red; */
         padding: 5px;
         border-radius: 10px 10px 0 0;
     }
@@ -78,12 +73,11 @@ section .container h2{
         grid-template-columns: 1fr 1fr;
     }
     .cards{
-        width: 90%;
+        width: 93%;
     }
     .cards-image img{
         height: 250px;
         width: 100%;
-        /* border: 1px solid red; */
         padding: 5px;
         border-radius: 10px 10px 0 0;
     }

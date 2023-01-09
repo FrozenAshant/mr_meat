@@ -6,6 +6,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: var(--backgournd-header);
+    overflow-x: visible;
 }
 .image-logo{
     display: flex;
