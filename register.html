@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Meat | Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="image-logo">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <a href="/"><h1>Mr. <b style="color:red;">M</b>eat</h1></a> 
+        </div>
+        
+        <!-- <h1>Mr. <b style="color:red;">M</b>eat</h1> -->
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="#">Home</a></li>
+                <li><a class="navbar-link" href="#">About</a></li>
+                <li><a class="navbar-link" href="#">Services</a></li>
+                <li><a class="navbar-link" href="#">Contact</a></li>
+                <li><a class="navbar-link" href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row-register">
+                <div class="col-register">
+                    <h3>REGISTER</h3>
+                    <img class="login-image" src="images/logo.png" alt="">
+                </div>
+                <div class="col-register">
+                    
+                    <form class="register-form" action="">
+                        <label class="txt">Full name</label>
+                        <input class="inp" type="text" name="name">
+                        <label class="txt">Email</label>
+                        <input class="inp" type="email" name="email">
+                        <label class="txt">Number</label>
+                        <input class="inp" type="number" name="number">
+                        <label class="txt">Password</label>
+                        <input class="inp" type="password">
+                        <label class="txt">Confirm Passowrd</label>
+                        <input class="inp" type="password" name="c_password">
+                        <button class="btn btn-success" type="submit">Register</button>
+
+                    </form>
+                    <a class="forgot" href="login.html">Login Here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>Services</h2>
+                    <ul>
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2>About Us</h2>
+                    <ul>
+                        <li><a href="#">This</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy" style="text-align: center;">&copy; Mr.<b style="color: red">M</b>eat 2023</p>
+        </div>
+
+    </footer>
+
+    <!-- scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

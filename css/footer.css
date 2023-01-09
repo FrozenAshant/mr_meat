@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    min-height: 10vh;
+}
+footer .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .row .col{
+    margin: 0 20px 10px 20px;
+}
+
+.copy{
+    margin: 8px;
+    letter-spacing: 0.6px;
+}
+
+@media(max-width: 980px){
+    footer .container .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .container .row .col{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:560px){
+    footer .container .row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
